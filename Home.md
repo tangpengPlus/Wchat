@@ -3,8 +3,8 @@
 1. [Quickstart](https://github.com/chanjarster/weixin-java-tools/wiki/Quickstart)
 1. [微信消息路由器](https://github.com/chanjarster/weixin-java-tools/wiki/微信消息路由器)
 2. [WxConfigStorage](https://github.com/chanjarster/weixin-java-tools/wiki/WxConfigStorage)
-1. 刷新access_token
-1. 同步回复消息
+1. [刷新access_token](https://github.com/chanjarster/weixin-java-tools/wiki/刷新access_token)
+1. [同步回复消息](https://github.com/chanjarster/weixin-java-tools/wiki/同步回复消息)
 1. 发送客服消息
 1. 多媒体文件管理
 1. 分组管理
