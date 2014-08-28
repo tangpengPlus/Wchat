@@ -1,6 +1,6 @@
 # 微信Java SDK开发文档
 
-1. [Quickstart](../../wiki/Quickstart)
+1. [Quickstart](https://github.com/chanjarster/weixin-java-tools/wiki/Quickstart)
 1. 微信消息路由器
 2. WxConfigStorage
 1. 刷新access_token
