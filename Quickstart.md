@@ -1,3 +1,26 @@
+## 打包
+
+如果你可以直接跳过单元测试，直接打包：
+```bash
+mvn clean install -Dmaven.test.skip=true
+```
+
+如果你对本项目不放心需要单元测试，那么你需要将 ``src/test/resources/test-config.sample.xml`` 改成 ``test-config.xml`` ，并设置appId, secret, accessToken(可选), openId，然后执行：
+
+```bash
+mvn clean install
+```
+
+在你的maven项目中添加：
+```xml
+<dependency>
+  <groupId>chanjarster.weixin</groupId>
+  <artifactId>weixin-java-tools</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+</dependency>
+```
+
+## Hello World
 ```java
 WxConfigStorage config = new WxInMemoryConfigStorage();
 config.setAppId(...); // 设置微信公众号的appid
