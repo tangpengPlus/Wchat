@@ -13,4 +13,3 @@
 1. [自定义菜单管理](https://github.com/chanjarster/weixin-java-tools/wiki/自定义菜单管理)
 1. [二维码管理](https://github.com/chanjarster/weixin-java-tools/wiki/二维码管理)
 1. [短链接管理](https://github.com/chanjarster/weixin-java-tools/wiki/短链接管理)
-1. [如何单元测试](https://github.com/chanjarster/weixin-java-tools/wiki/如何单元测试)
