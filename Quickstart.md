@@ -1,5 +1,3 @@
-## 打包到本地maven仓库
-
 在你的maven项目中添加：
 ```xml
 <dependency>
