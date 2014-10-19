@@ -8,4 +8,4 @@
 
 在[Quickstart](https://github.com/chanjarster/weixin-java-tools/wiki/Quickstart)的例子里我们使用的是``WxInMemoryConfigStorage``。在正式生产环境中，你可以提供自己的实现，比如在集群环境下将这些信息存储到数据库里，以便各个节点能够共享access token。
 
-**在整个应用程序中，``WxInMemoryConfigStorage``应该是单例的。**
+**在整个应用程序中，``WxConfigStorage``应该是单例的。**
