@@ -1,4 +1,4 @@
-``WxConfigStorage`` 是维护微信公众号相关信息的地方，里面有一下信息：
+``WxConfigStorage`` 是维护微信公众号相关信息的地方，里面有以下信息：
 
 1. appid
 1. app secret
