@@ -1,6 +1,6 @@
 # 微信Java SDK开发文档
 
-1. [Quickstart](https://github.com/chanjarster/weixin-java-tools/wiki/Quick-Start)
+1. [Quick Start](https://github.com/chanjarster/weixin-java-tools/wiki/Quick-Start)
 1. [微信消息路由器](https://github.com/chanjarster/weixin-java-tools/wiki/微信消息路由器)
 1. [WxConfigStorage](https://github.com/chanjarster/weixin-java-tools/wiki/WxConfigStorage)
 1. [验证消息合法性](https://github.com/chanjarster/weixin-java-tools/wiki/验证消息合法性)
