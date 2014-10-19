@@ -22,5 +22,5 @@
     Avg Conn Time                 97.88ms
     ```
 
-    这说明访问http://acdUjlKd-1dfk.ngrok.com 就等于访问 http://localhost:8080。
+    以后访问http://acdUjlKd-1dfk.ngrok.com 就等于访问 http://localhost:8080。
 1. 将这个地址改为的公众号的服务器地址，然后就可以调试运行了。
