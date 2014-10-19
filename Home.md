@@ -5,6 +5,7 @@
 1. [WxConfigStorage](https://github.com/chanjarster/weixin-java-tools/wiki/WxConfigStorage)
 1. [验证消息合法性](https://github.com/chanjarster/weixin-java-tools/wiki/验证消息合法性)
 1. [刷新access_token](https://github.com/chanjarster/weixin-java-tools/wiki/刷新access_token)
+1. [消息的加解密](https://github.com/chanjarster/weixin-java-tools/wiki/消息的加解密)
 1. [同步回复消息](https://github.com/chanjarster/weixin-java-tools/wiki/同步回复消息)
 1. [发送客服消息](https://github.com/chanjarster/weixin-java-tools/wiki/发送客服消息)
 1. [多媒体文件管理](https://github.com/chanjarster/weixin-java-tools/wiki/多媒体文件管理)
