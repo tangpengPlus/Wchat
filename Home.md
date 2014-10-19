@@ -16,3 +16,4 @@
 1. [二维码管理](https://github.com/chanjarster/weixin-java-tools/wiki/二维码管理)
 1. [短链接管理](https://github.com/chanjarster/weixin-java-tools/wiki/短链接管理)
 1. [如何执行本项目单元测试](https://github.com/chanjarster/weixin-java-tools/wiki/如何执行本项目单元测试)
+1. [demo代码](https://github.com/chanjarster/weixin-java-tools/wiki/demo代码)
