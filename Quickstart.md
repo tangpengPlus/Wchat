@@ -9,7 +9,7 @@
 
 ## Hello World
 ```java
-WxConfigStorage config = new WxInMemoryConfigStorage();
+WxInMemoryConfigStorage config = new WxInMemoryConfigStorage();
 config.setAppId(...); // 设置微信公众号的appid
 config.setSecret(...); // 设置微信公众号的app secret
 config.setToken(...); // 设置微信公众号的token
