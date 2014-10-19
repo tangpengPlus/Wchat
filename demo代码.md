@@ -8,7 +8,7 @@
 启动方式：
 
 1. 直接运行``WxTestServer``
-1. 配置``test-config.xml``
+1. 将``test-config.sample.xml``改成``test-config.xml``，并配置相关信息
 1. 运行``ngrok 8080``（[ngrok](https://ngrok.com/)是一个让外网访问本机的工具）
 
     运行``ngrok``后会出现类似下面的信息：
