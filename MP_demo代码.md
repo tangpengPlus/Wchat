@@ -2,8 +2,8 @@
 
 相关代码在：
 
-1. ``me.chanjar.weixin.demo.WxTestServer``
-2. ``me.chanjar.weixin.demo.WxTestServlet``
+1. ``WxTestServer``
+2. ``WxTestServlet``
 
 启动方式：
 

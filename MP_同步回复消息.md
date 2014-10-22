@@ -1,13 +1,13 @@
 ``WxMessageRouter``默认使用异步的方式处理消息，如果要使用同步回复微信消息，那么:
 
 1. 需要将路由规则配置为同步
-2. 且handler需要返回一个``WxXmlOutMessage``
+2. 且handler需要返回一个``WxMpXmlOutMessage``
 
 ```java
 // 将WxXmlMessage交给消息路由器
 HttpServletRequest request = ...;
-WxXmlMessage inMsg = WxXmlMessage.fromXml(request.getInputStream());
-WxXmlOutMessage reMsg = router.route(inMsg);
+WxXmlMessage inMsg = ...;
+WxMpXmlOutMessage reMsg = router.route(inMsg);
 if (reMsg != null) {
   // 说明是同步回复的消息
   // 将xml写入HttpServletResponse
@@ -17,14 +17,14 @@ if (reMsg != null) {
 }
 ```
 
-## WxXmlOutTextMessage
+## WxMpXmlOutTextMessage
 
-``WxXmlOutTextMessage``是同步回复给微信消息的对象，不同类型的消息类型可以用不同的方式构造：
+``WxMpXmlOutTextMessage``是同步回复给微信消息的对象，不同类型的消息类型可以用不同的方式构造：
 
 ### 文本消息
 
 ```java
-WxXmlOutMessage.TEXT()
+WxMpXmlOutMessage.TEXT()
   .content("content")
   .fromUser("from")
   .toUser("to")
@@ -34,7 +34,7 @@ WxXmlOutMessage.TEXT()
 ### 图片消息
 
 ```java
-WxXmlOutMessage.IMAGE()
+WxMpXmlOutMessage.IMAGE()
   .mediaId("ddfefesfsdfef")
   .fromUser("from")
   .toUser("to")
@@ -44,7 +44,7 @@ WxXmlOutMessage.IMAGE()
 ### 语音消息
 
 ```java
-WxXmlOutMessage.VOICE()
+WxMpXmlOutMessage.VOICE()
   .mediaId("ddfefesfsdfef")
   .fromUser("from")
   .toUser("to")
@@ -54,7 +54,7 @@ WxXmlOutMessage.VOICE()
 ### 视频消息
 
 ```java
-WxXmlOutMessage.VIDEO()
+WxMpXmlOutMessage.VIDEO()
   .mediaId("media_id")
   .fromUser("fromUser")
   .toUser("toUser")
@@ -64,7 +64,7 @@ WxXmlOutMessage.VIDEO()
 ```
 ### 音乐消息
 ```java
-WxXmlOutMessage.MUSIC()
+WxMpXmlOutMessage.MUSIC()
   .fromUser("fromUser")
   .toUser("toUser")
   .title("title")
@@ -77,13 +77,13 @@ WxXmlOutMessage.MUSIC()
 ### 图文消息
 
 ```java
-WxXmlOutMewsMessage.Item item = new WxXmlOutMewsMessage.Item();
+WxMpXmlOutMewsMessage.Item item = new WxMpXmlOutMewsMessage.Item();
 item.setDescription("description");
 item.setPicUrl("picUrl");
 item.setTitle("title");
 item.setUrl("url");
-    
-WxXmlOutMewsMessage m = WxXmlOutMessage.NEWS()
+
+WxMpXmlOutMewsMessage m = WxMpXmlOutMessage.NEWS()
   .fromUser("fromUser")
   .toUser("toUser")
   .addArticle(item)
