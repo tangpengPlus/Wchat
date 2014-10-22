@@ -1,12 +1,10 @@
 # 微信Java SDK开发文档
 
-## 企业号开发
-
 ## 公众号开发
 
 1. [Quick Start](https://github.com/chanjarster/weixin-java-tools/wiki/MP_Quick-Start)
 1. [微信消息路由器](https://github.com/chanjarster/weixin-java-tools/wiki/MP_微信消息路由器)
-1. [WxConfigStorage](https://github.com/chanjarster/weixin-java-tools/wiki/MP_WxConfigStorage)
+1. [WxMpConfigStorage](https://github.com/chanjarster/weixin-java-tools/wiki/MP_WxMpConfigStorage)
 1. [验证消息合法性](https://github.com/chanjarster/weixin-java-tools/wiki/MP_验证消息合法性)
 1. [刷新access_token](https://github.com/chanjarster/weixin-java-tools/wiki/MP_刷新access_token)
 1. [消息的加解密](https://github.com/chanjarster/weixin-java-tools/wiki/MP_消息的加解密)
@@ -21,3 +19,20 @@
 1. [短链接管理](https://github.com/chanjarster/weixin-java-tools/wiki/MP_短链接管理)
 1. [如何执行本项目单元测试](https://github.com/chanjarster/weixin-java-tools/wiki/MP_如何执行本项目单元测试)
 1. [demo代码](https://github.com/chanjarster/weixin-java-tools/wiki/MP_demo代码)
+
+## 企业号开发
+
+1. [Quick Start](https://github.com/chanjarster/weixin-java-tools/wiki/CP_Quick-Start)
+1. [微信消息路由器](https://github.com/chanjarster/weixin-java-tools/wiki/CP_微信消息路由器)
+1. [WxCpConfigStorage](https://github.com/chanjarster/weixin-java-tools/wiki/CP_WxCpConfigStorage)
+1. [同步回复消息](https://github.com/chanjarster/weixin-java-tools/wiki/CP_同步回复消息)
+1. [刷新access_token](https://github.com/chanjarster/weixin-java-tools/wiki/CP_刷新access_token)
+1. [用户身份二次验证](https://github.com/chanjarster/weixin-java-tools/wiki/CP_用户身份二次验证)
+1. [主动发送消息](https://github.com/chanjarster/weixin-java-tools/wiki/CP_主动发送消息)
+1. [多媒体文件管理](https://github.com/chanjarster/weixin-java-tools/wiki/CP_多媒体文件管理)
+1. [用户管理](https://github.com/chanjarster/weixin-java-tools/wiki/CP_用户管理)
+1. [部门管理](https://github.com/chanjarster/weixin-java-tools/wiki/CP_部门管理)
+1. [标签管理](https://github.com/chanjarster/weixin-java-tools/wiki/CP_标签管理)
+1. [自定义菜单管理](https://github.com/chanjarster/weixin-java-tools/wiki/CP_自定义菜单管理)
+1. [如何执行本项目单元测试](https://github.com/chanjarster/weixin-java-tools/wiki/CP_如何执行本项目单元测试)
+1. [demo代码](https://github.com/chanjarster/weixin-java-tools/wiki/CP_demo代码)

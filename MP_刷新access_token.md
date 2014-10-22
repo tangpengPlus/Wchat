@@ -8,4 +8,4 @@
 wxMpService.accessTokenRefresh();
 ```
 
-获得的新的access token会更新到WxMpConfigStorage中。
+获得的新的access token会更新到``WxMpConfigStorage``中。
