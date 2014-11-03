@@ -37,6 +37,6 @@
 1. [部门管理](https://github.com/chanjarster/weixin-java-tools/wiki/CP_部门管理)
 1. [标签管理](https://github.com/chanjarster/weixin-java-tools/wiki/CP_标签管理)
 1. [自定义菜单管理](https://github.com/chanjarster/weixin-java-tools/wiki/CP_自定义菜单管理)
-1. [http代理支持](https://github.com/chanjarster/weixin-java-tools/wiki/MP_http代理支持)
+1. [http代理支持](https://github.com/chanjarster/weixin-java-tools/wiki/CP_http代理支持)
 1. [如何执行本项目单元测试](https://github.com/chanjarster/weixin-java-tools/wiki/CP_如何执行本项目单元测试)
 1. [demo代码](https://github.com/chanjarster/weixin-java-tools/wiki/CP_demo代码)
