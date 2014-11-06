@@ -66,7 +66,7 @@ router.route(message);
 2. 规则的结束必须用``Rule.end()``或者``Rule.next()``，否则不会生效
 3. 具体使用可以看源代码中的``WxCpMessageRouterTest``单元测试，或者查看Javadoc
 
-关于如何构造``WxCpXmlMessage``请看[消息的加解密](https://github.com/chanjarster/weixin-java-tools/wiki/CP_消息的加解密)。
+关于如何构造``WxCpXmlMessage``请看[同步回复消息](https://github.com/chanjarster/weixin-java-tools/wiki/CP_同步回复消息)。
 
 
 ## WxMessageHandler
