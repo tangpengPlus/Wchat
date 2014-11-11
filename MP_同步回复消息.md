@@ -77,13 +77,13 @@ WxMpXmlOutMessage.MUSIC()
 ### 图文消息
 
 ```java
-WxMpXmlOutMewsMessage.Item item = new WxMpXmlOutMewsMessage.Item();
+WxMpXmlOutNewsMessage.Item item = new WxMpXmlOutNewsMessage.Item();
 item.setDescription("description");
 item.setPicUrl("picUrl");
 item.setTitle("title");
 item.setUrl("url");
 
-WxMpXmlOutMewsMessage m = WxMpXmlOutMessage.NEWS()
+WxMpXmlOutNewsMessage m = WxMpXmlOutMessage.NEWS()
   .fromUser("fromUser")
   .toUser("toUser")
   .addArticle(item)
