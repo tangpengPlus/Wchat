@@ -59,15 +59,3 @@
 
 }
 ```
-
-## 加解密构成中的异常
-
-如果在加解密的过程中出现``java.security.InvalidKeyException: Illegal key size``，则需要下载一个东西：
-
- * JRE/JDK 6：http://www.oracle.com/technetwork/java/javase/downloads/jce-6-download-429243.html
- * JRE/JDK 7：http://www.oracle.com/technetwork/java/javase/downloads/jce-7-download-432124.html
- * JRE/JDK 8：http://www.oracle.com/technetwork/java/javase/downloads/jce8-download-2133166.html
-
-如果安装了JRE，将两个jar文件放到``$JAVA_HOME/lib/security``目录下覆盖原来的文件
-
-如果安装了JDK，将两个jar文件放到``$JAVA_HOME/jre/lib/security``目录下覆盖原来文件
