@@ -24,6 +24,7 @@
 1. [如何调用未支持的接口](https://github.com/chanjarster/weixin-java-tools/wiki/MP_如何调用未支持的接口)
 1. [如何执行本项目单元测试](https://github.com/chanjarster/weixin-java-tools/wiki/MP_如何执行本项目单元测试)
 1. [demo代码](https://github.com/chanjarster/weixin-java-tools/wiki/MP_demo代码)
+1. [加解密Illegal key size异常处理办法](https://github.com/chanjarster/weixin-java-tools/wiki/加解密的异常处理办法)
 
 ## 企业号开发
 
@@ -44,3 +45,4 @@
 1. [如何调用未支持的接口](https://github.com/chanjarster/weixin-java-tools/wiki/CP_如何调用未支持的接口)
 1. [如何执行本项目单元测试](https://github.com/chanjarster/weixin-java-tools/wiki/CP_如何执行本项目单元测试)
 1. [demo代码](https://github.com/chanjarster/weixin-java-tools/wiki/CP_demo代码)
+1. [加解密Illegal key size异常处理办法](https://github.com/chanjarster/weixin-java-tools/wiki/加解密的异常处理办法)
