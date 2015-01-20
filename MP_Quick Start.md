@@ -1,25 +1,3 @@
-在你的maven项目中添加：
-
-```xml
-<dependency>
-  <groupId>me.chanjar</groupId>
-  <artifactId>weixin-java-mp</artifactId>
-  <version>1.0.3</version>
-</dependency>
-```
-
-如果要使用``*-SNAPSHOT``版，则需要在你的``pom.xml``中添加这段：
-
-```xml
-<repositories>
-  <repository>
-      <snapshots />
-      <id>sonatype snapshots</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-  </repository>
-</repositories>
-```
-
 ## Hello World
 ```java
 WxMpInMemoryConfigStorage config = new WxMpInMemoryConfigStorage();

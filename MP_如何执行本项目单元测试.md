@@ -7,7 +7,7 @@
     <token>公众号Token</token>
     <aesKey>公众号EncodingAESKey</aesKey>
     <accessToken>可以不填写</accessToken>
-    <expiresIn>可以不填写</expiresIn>
+    <expiresTime>可以不填写</expiresTime>
     <openId>某个加你公众号的用户的openId</openId>
 </xml>
 ```
