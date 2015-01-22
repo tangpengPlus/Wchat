@@ -20,6 +20,7 @@
 1. [发送模板消息](https://github.com/chanjarster/weixin-java-tools/wiki/MP_发送模板消息)
 1. [语义查询](https://github.com/chanjarster/weixin-java-tools/wiki/MP_语义查询)
 1. [OAuth2网页授权](https://github.com/chanjarster/weixin-java-tools/wiki/MP_OAuth2网页授权)
+1. [JS_API支持](https://github.com/chanjarster/weixin-java-tools/wiki/MP_js_api)
 1. [http代理支持](https://github.com/chanjarster/weixin-java-tools/wiki/MP_http代理支持)
 1. [如何调用未支持的接口](https://github.com/chanjarster/weixin-java-tools/wiki/MP_如何调用未支持的接口)
 1. [如何执行本项目单元测试](https://github.com/chanjarster/weixin-java-tools/wiki/MP_如何执行本项目单元测试)
