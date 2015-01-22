@@ -45,6 +45,17 @@
 1. [如何执行本项目单元测试](https://github.com/chanjarster/weixin-java-tools/wiki/CP_如何执行本项目单元测试)
 1. [demo代码](https://github.com/chanjarster/weixin-java-tools/wiki/CP_demo代码)
 
+## 通用部分
+
+1. [Session](https://github.com/chanjarster/weixin-java-tools/wiki/WxSession)
+1. [配置日志](https://github.com/chanjarster/weixin-java-tools/wiki/配置日志)
+1. [消息排重](https://github.com/chanjarster/weixin-java-tools/wiki/消息排重)
+
+## 升级指南
+
+1. [1.0.3升级指南](https://github.com/chanjarster/weixin-java-tools/wiki/1_0_3升级指南)
+1. [1.1.0升级指南](https://github.com/chanjarster/weixin-java-tools/wiki/1_1_0升级指南)
+
 ## Troubleshooting
 
 1. [加解密Illegal key size异常处理办法](https://github.com/chanjarster/weixin-java-tools/wiki/加解密的异常处理办法)

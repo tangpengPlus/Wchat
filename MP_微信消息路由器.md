@@ -76,10 +76,15 @@ public interface WxMpMessageHandler {
    * @param wxMpService
    * @return xml格式的消息，如果在异步规则里处理的话，可以返回null
    */
-  public WxMpXmlOutMessage handle(WxMpXmlMessage wxMessage, Map<String, Object> context, WxMpService wxMpService);
+  public WxMpXmlOutMessage handle(WxMpXmlMessage wxMessage,
+                                  Map<String, Object> context,
+                                  WxMpService wxMpService,
+                                  WxSessionManager sessionManager);
 
 }
 ```
+
+关于``WxSessionManager``请看[WxSession的使用](https://github.com/chanjarster/weixin-java-tools/wiki/WxSession)。
 
 ## WxMessageInterceptor
 
@@ -93,7 +98,12 @@ public interface WxMpMessageInterceptor {
    * @param wxMpService
    * @return  true代表OK，false代表不OK
    */
-  public boolean intercept(WxMpXmlMessage wxMessage, Map<String, Object> context, WxMpService wxMpService);
+  public boolean intercept(WxMpXmlMessage wxMessage,
+                           Map<String, Object> context,
+                           WxMpService wxMpService,
+                           WxSessionManager sessionManager);
 
 }
 ```
+
+关于``WxSessionManager``请看[WxSession的使用](https://github.com/chanjarster/weixin-java-tools/wiki/WxSession)。
