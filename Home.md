@@ -45,6 +45,7 @@
 1. [如何调用未支持的接口](https://github.com/chanjarster/weixin-java-tools/wiki/CP_如何调用未支持的接口)
 1. [如何执行本项目单元测试](https://github.com/chanjarster/weixin-java-tools/wiki/CP_如何执行本项目单元测试)
 1. [demo代码](https://github.com/chanjarster/weixin-java-tools/wiki/CP_demo代码)
+1. [如何支持多个企业号应用，或者支持多个企业号](https://github.com/chanjarster/weixin-java-tools/wiki/CP_如何支持多个企业号应用或企业号)
 
 ## 通用部分
 
