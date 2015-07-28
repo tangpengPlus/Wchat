@@ -11,6 +11,7 @@
 1. [同步回复消息](https://github.com/chanjarster/weixin-java-tools/wiki/MP_同步回复消息)
 1. [主动发送消息](https://github.com/chanjarster/weixin-java-tools/wiki/MP_主动发送消息)
 1. [多媒体文件管理](https://github.com/chanjarster/weixin-java-tools/wiki/MP_多媒体文件管理)
+1. [永久素材管理](https://github.com/chanjarster/weixin-java-tools/wiki/MP_永久素材管理)
 1. [分组管理](https://github.com/chanjarster/weixin-java-tools/wiki/MP_分组管理)
 1. [用户管理](https://github.com/chanjarster/weixin-java-tools/wiki/MP_用户管理)
 1. [群发消息](https://github.com/chanjarster/weixin-java-tools/wiki/MP_群发消息)
