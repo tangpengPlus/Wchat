@@ -1,5 +1,5 @@
 ```java
-WxMpTemplateMessage templateMessage = new WxMpTemplateMessage;
+WxMpTemplateMessage templateMessage = new WxMpTemplateMessage();
 templateMessage.setToUser(...);
 templateMessage.setTemplateId(...);
 templateMessage.setUrl(...);
