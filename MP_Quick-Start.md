@@ -6,7 +6,7 @@ config.setSecret("..."); // 设置微信公众号的app corpSecret
 config.setToken("..."); // 设置微信公众号的token
 config.setAesKey("..."); // 设置微信公众号的EncodingAESKey
 
-WxMpServiceImpl wxService = new WxMpServiceImpl();
+WxMpService wxService = new WxMpServiceImpl();
 wxService.setWxMpConfigStorage(config);
 
 // 用户的openid在下面地址获得 
