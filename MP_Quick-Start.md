@@ -16,7 +16,7 @@ WxMpCustomMessage message = WxMpCustomMessage.TEXT().toUser(openid).content("Hel
 wxService.customMessageSend(message);
 ```
 
-## Servlet Example
+## Servlet Example 由于api更新多次，该示例代码部分有问题，仅供参考
 ```java
 public class WxMpServlet extends HttpServlet {
 
