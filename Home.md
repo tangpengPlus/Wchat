@@ -2,7 +2,7 @@
 
 ## 公众号开发
 
-1. [Quick Start](https://github.com/chanjarster/weixin-java-tools/wiki/MP_Quick-Start)
+1. [Quick Start（快速入门）](https://github.com/chanjarster/weixin-java-tools/wiki/MP_Quick-Start)
 1. [微信消息路由器](https://github.com/chanjarster/weixin-java-tools/wiki/MP_微信消息路由器)
 1. [WxMpConfigStorage](https://github.com/chanjarster/weixin-java-tools/wiki/MP_WxMpConfigStorage)
 1. [验证消息合法性](https://github.com/chanjarster/weixin-java-tools/wiki/MP_验证消息合法性)
