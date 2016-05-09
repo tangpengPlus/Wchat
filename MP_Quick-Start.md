@@ -16,18 +16,19 @@ WxMpCustomMessage message = WxMpCustomMessage.TEXT().toUser(openid).content("Hel
 wxService.customMessageSend(message);
 ```
 
-## Servlet Example 由于api更新多次，该示例代码部分有问题，仅供参考
+## Servlet Example
+_注意：由于api更新多次，该示例代码部分有问题，仅供参考_
 ```java
 public class WxMpServlet extends HttpServlet {
 
-  protected WxMpConfigStorage wxMpConfigStorage;
+  protected WxMpInMemoryConfigStorage config;
   protected WxMpService wxMpService;
   protected WxMpMessageRouter wxMpMessageRouter;
 
   @Override public void init() throws ServletException {
     super.init();
 
-    wxMpConfigStorage = new WxMpInMemoryConfigStorage();
+    config = new WxMpInMemoryConfigStorage();
     config.setAppId("..."); // 设置微信公众号的appid
     config.setSecret("..."); // 设置微信公众号的app corpSecret
     config.setToken("..."); // 设置微信公众号的token
