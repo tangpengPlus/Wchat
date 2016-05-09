@@ -35,7 +35,7 @@ public class WxMpServlet extends HttpServlet {
     config.setAesKey("..."); // 设置微信公众号的EncodingAESKey
 
     wxMpService = new WxMpServiceImpl();
-    wxMpService.setWxMpConfigStorage(wxMpConfigStorage);
+    wxMpService.setWxMpConfigStorage(config);
 
     WxMpMessageHandler handler = new WxMpMessageHandler() {
       @Override public WxMpXmlOutMessage handle(WxMpXmlMessage wxMessage, Map<String, Object> context, WxMpService wxMpService) {
