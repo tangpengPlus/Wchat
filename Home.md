@@ -64,4 +64,5 @@
 ## Troubleshooting
 
 1. [加解密Illegal key size异常处理办法](https://github.com/chanjarster/weixin-java-tools/wiki/加解密的异常处理办法)
-1. [javax.xml.bind.PropertyException](https://github.com/chanjarster/weixin-java-tools/wiki/javax.xml.bind.PropertyException)
+2. [javax.xml.bind.PropertyException](https://github.com/chanjarster/weixin-java-tools/wiki/javax.xml.bind.PropertyException)
+3. [httpclient 4.3.1 版本有bug，请不要使用](https://github.com/wechat-group/weixin-java-tools/wiki/httpclient-4.3.1-%E7%89%88%E6%9C%AC%E6%9C%89bug-%E8%AF%B7%E4%B8%8D%E8%A6%81%E4%BD%BF%E7%94%A8)
