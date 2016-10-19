@@ -1,5 +1,12 @@
 # 微信Java SDK开发文档
 
+## 常见问题
+
+1. [加解密Illegal key size异常处理办法](https://github.com/chanjarster/weixin-java-tools/wiki/加解密的异常处理办法)
+2. [javax.xml.bind.PropertyException](https://github.com/chanjarster/weixin-java-tools/wiki/javax.xml.bind.PropertyException)
+3. [httpclient 4.3.1 版本有bug，请不要使用](https://github.com/wechat-group/weixin-java-tools/wiki/httpclient-4.3.1-%E7%89%88%E6%9C%AC%E6%9C%89bug-%E8%AF%B7%E4%B8%8D%E8%A6%81%E4%BD%BF%E7%94%A8)
+
+
 ## 公众号开发
 
 1. [Quick Start（快速入门）](https://github.com/chanjarster/weixin-java-tools/wiki/MP_Quick-Start)
@@ -60,9 +67,3 @@
 1. [1.0.3升级指南](https://github.com/chanjarster/weixin-java-tools/wiki/1_0_3升级指南)
 1. [1.1.0升级指南](https://github.com/chanjarster/weixin-java-tools/wiki/1_1_0升级指南)
 1. [1.1.1升级指南](https://github.com/chanjarster/weixin-java-tools/wiki/1_1_1升级指南)
-
-## Troubleshooting
-
-1. [加解密Illegal key size异常处理办法](https://github.com/chanjarster/weixin-java-tools/wiki/加解密的异常处理办法)
-2. [javax.xml.bind.PropertyException](https://github.com/chanjarster/weixin-java-tools/wiki/javax.xml.bind.PropertyException)
-3. [httpclient 4.3.1 版本有bug，请不要使用](https://github.com/wechat-group/weixin-java-tools/wiki/httpclient-4.3.1-%E7%89%88%E6%9C%AC%E6%9C%89bug-%E8%AF%B7%E4%B8%8D%E8%A6%81%E4%BD%BF%E7%94%A8)
