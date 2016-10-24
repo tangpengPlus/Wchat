@@ -1,7 +1,7 @@
 ```java
 WxMpCustomMessage message = ...;
 // 设置消息的内容等信息
-wxMpService.customMessageSend(message);
+wxMpService.getKefuService().customMessageSend(message);
 ```
 
 ## WxXmlOutTextMessage
