@@ -17,7 +17,7 @@
 1. [刷新access_token](https://github.com/wechat-group/weixin-java-tools/wiki/MP_刷新access_token)
 1. [消息的加解密](https://github.com/wechat-group/weixin-java-tools/wiki/MP_消息的加解密)
 1. [同步回复消息](https://github.com/wechat-group/weixin-java-tools/wiki/MP_同步回复消息)
-1. [主动发送消息](https://github.com/wechat-group/weixin-java-tools/wiki/MP_主动发送消息)
+1. [主动发送消息（客服消息）](https://github.com/wechat-group/weixin-java-tools/wiki/MP_主动发送消息)
 1. [多媒体文件管理](https://github.com/wechat-group/weixin-java-tools/wiki/MP_多媒体文件管理)
 1. [永久素材管理](https://github.com/wechat-group/weixin-java-tools/wiki/MP_永久素材管理)
 1. [分组管理](https://github.com/wechat-group/weixin-java-tools/wiki/MP_分组管理)
