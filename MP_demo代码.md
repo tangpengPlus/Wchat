@@ -1,6 +1,7 @@
 目前有两个的demo项目代码可以参考：
+
 1. https://github.com/wechat-group/weixin-mp-demo
-1. https://github.com/wechat-group/weixin-java-tools-springmvc
+2. https://github.com/wechat-group/weixin-java-tools-springmvc
 
 也可以运行本项目的demo代码来对``weixin-java-tools``的有一个更好的了解。
 
