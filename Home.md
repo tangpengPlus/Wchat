@@ -11,6 +11,7 @@
 ## 公众号开发
 
 1. [Quick Start（快速入门）](https://github.com/wechat-group/weixin-java-tools/wiki/MP_Quick-Start)
+1. [Demo代码](https://github.com/wechat-group/weixin-java-tools/wiki/MP_demo代码)
 1. [微信消息路由器](https://github.com/wechat-group/weixin-java-tools/wiki/MP_微信消息路由器)
 1. [WxMpConfigStorage](https://github.com/wechat-group/weixin-java-tools/wiki/MP_WxMpConfigStorage)
 1. [验证消息合法性](https://github.com/wechat-group/weixin-java-tools/wiki/MP_验证消息合法性)
@@ -34,7 +35,6 @@
 1. [微信支付](https://github.com/wechat-group/weixin-java-tools/wiki/%E5%BE%AE%E4%BF%A1%E6%94%AF%E4%BB%98)
 1. [如何调用未支持的接口](https://github.com/wechat-group/weixin-java-tools/wiki/MP_如何调用未支持的接口)
 1. [如何执行本项目单元测试](https://github.com/wechat-group/weixin-java-tools/wiki/MP_如何执行本项目单元测试)
-1. [demo代码](https://github.com/wechat-group/weixin-java-tools/wiki/MP_demo代码)
 
 ## 企业号开发
 
