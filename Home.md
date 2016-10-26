@@ -62,3 +62,4 @@
 1. [Session](https://github.com/wechat-group/weixin-java-tools/wiki/WxSession)
 1. [配置日志](https://github.com/wechat-group/weixin-java-tools/wiki/配置日志)
 1. [消息排重](https://github.com/wechat-group/weixin-java-tools/wiki/消息排重)
+1. [http client的参数配置](https://github.com/wechat-group/weixin-java-tools/wiki/httpclient)
