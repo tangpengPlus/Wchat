@@ -13,7 +13,7 @@
   private String userAgent;//HttpClient请求时使用的User Agent(默认为HttpClient的默认值)
 ```
 
-参考[MP_Quick Start](https://github.com/wechat-group/weixin-java-tools/wiki/MP_Quick-Start)或者[CP_Quick-Start](https://github.com/wechat-group/weixin-java-tools/wiki/CP_Quick-Start)在API初始化是我们需要设置Wx\*\*ConfigStorage,在其参数中可以通过方法#setApacheHttpClientBuilder设置ApacheHttpClientBuilder的实现类来配置具体的HttpClient的参数配置.默认没有设置本参数的时候将会使用DefaultApacheHttpClientBuilder中默认的参数配置.下面以DefaultApacheHttpClientBuilder为例给出修改参数的配置方法
+参考[MP_Quick Start](https://github.com/wechat-group/weixin-java-tools/wiki/MP_Quick-Start)或者[CP_Quick-Start](https://github.com/wechat-group/weixin-java-tools/wiki/CP_Quick-Start)在API初始化是我们需要设置Wx\*\*ConfigStorage,可以通过方法#setApacheHttpClientBuilder设置ApacheHttpClientBuilder的实现类来配置具体的HttpClient的参数配置.默认没有设置本参数的时候将会使用DefaultApacheHttpClientBuilder中默认的参数配置.下面以DefaultApacheHttpClientBuilder为例给出修改参数的配置方法
 
 
 
