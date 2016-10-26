@@ -39,7 +39,7 @@ config.setApacheHttpClientBuilder(clientBuilder); //设置自定义的ApacheHttp
 
 ## 2.关于在spring中的使用
 
-方法一,可以自己实现ApacheHttpClientBuilder接口然后在Wx\*\*InMemoryConfigStorage中配置.**推荐此方法**
+方法一,可以自己实现ApacheHttpClientBuilder接口然后在Wx\*\*ConfigStorage中设置.**推荐此方法**
 
 方法二,使用DefaultApacheHttpClientBuilder,考虑到DefaultApacheHttpClientBuilder并不是最优解,所以没有提供public的构造方法,只提供了一个静态方法获取实例.如果一定要使用这个类来实现自定义配置的话我们需要定义一个Spring的FactoryBean,下面给出参考代码.
 
