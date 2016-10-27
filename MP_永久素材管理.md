@@ -4,7 +4,7 @@
 1. 调用该接口需https协议
 1. 永久图片素材新增后，将带有URL返回给开发者，开发者可以在腾讯系域名内使用（腾讯系域名外使用，图片将被屏蔽）
 
-*下面所有方法使用方式可以参考测试用例： weixin-java-tools/weixin-java-mp/src/test/java/me/chanjar/weixin/mp/api/WxMpMaterialAPITest.java*
+*下面所有方法使用方式可以参考测试用例： weixin-java-tools/weixin-java-mp/src/test/java/me/chanjar/weixin/mp/api/impl/WxMpMaterialServiceImplTest.java (me.chanjar.weixin.mp.api.impl.WxMpMaterialServiceImplTest)*
 
 ## 添加图文永久素材
 
@@ -34,7 +34,7 @@ new WxMpMaterialNews.WxMpMaterialNewsArticle();
     mpMaterialNewsArticleSingle.setDigest("single news");
     wxMpMaterialNewsSingle.addArticle(mpMaterialNewsArticleSingle);
     WxMpMaterialUploadResult resSingle =
- wxService.materialNewsUpload(wxMpMaterialNewsSingle);
+ wxService.getMaterialService().materialNewsUpload(wxMpMaterialNewsSingle);
 ```
 
 ## 添加其他类型永久素材
@@ -62,7 +62,7 @@ WxMpMaterial 对象的成员变量 name 需要包含文件后缀，否则微信�
 WxMpMaterial wxMaterial = new WxMpMaterial();
 wxMaterial.setFile(tempFile);
 wxMaterial.setName(fileName);
-WxMpMaterialUploadResult res = wxService.materialFileUpload(mediaType, wxMaterial); 
+WxMpMaterialUploadResult res = wxService.getMaterialService().materialFileUpload(mediaType, wxMaterial); 
 ```
 
 ## 获取图文永久素材
