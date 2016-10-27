@@ -21,7 +21,7 @@
 1. [主动发送消息（客服消息）](https://github.com/wechat-group/weixin-java-tools/wiki/MP_主动发送消息)
 1. [多媒体文件管理](https://github.com/wechat-group/weixin-java-tools/wiki/MP_多媒体文件管理)
 1. [永久素材管理](https://github.com/wechat-group/weixin-java-tools/wiki/MP_永久素材管理)
-1. [分组管理](https://github.com/wechat-group/weixin-java-tools/wiki/MP_分组管理)
+1. [标签管理](https://github.com/wechat-group/weixin-java-tools/wiki/MP_分组管理)
 1. [用户管理](https://github.com/wechat-group/weixin-java-tools/wiki/MP_用户管理)
 1. [群发消息](https://github.com/wechat-group/weixin-java-tools/wiki/MP_群发消息)
 1. [自定义菜单管理](https://github.com/wechat-group/weixin-java-tools/wiki/MP_自定义菜单管理)
