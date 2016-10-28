@@ -4,5 +4,5 @@ javax.net.ssl.SSLException: java.security.ProviderException: java.security.KeyEx
 解决办法： 
 
 1. 换成oracle jdk即可；
-1. 或者升级openjdk到8版本（待验证）；
-1. 或者参考http://blog.csdn.net/yaominhua/article/details/51830630 （待验证）
+1. 或者升级openjdk到8版本（待验证，如果验证成功或者失败，麻烦更新下此文档）；
+1. 或者参考http://blog.csdn.net/yaominhua/article/details/51830630 （待验证，如果验证成功或者失败，麻烦更新下此文档）
