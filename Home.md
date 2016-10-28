@@ -3,8 +3,9 @@
 ## 常见问题
 
 1. [加解密Illegal key size异常处理办法](https://github.com/wechat-group/weixin-java-tools/wiki/加解密的异常处理办法)
-2. [httpclient 4.3.1 版本有bug，请不要使用](https://github.com/wechat-group/weixin-java-tools/wiki/httpclient-4.3.1-%E7%89%88%E6%9C%AC%E6%9C%89bug-%E8%AF%B7%E4%B8%8D%E8%A6%81%E4%BD%BF%E7%94%A8)
-3. [下载maven jar包出现问题时请设置maven镜像库](https://github.com/wechat-group/weixin-java-tools/wiki/%E4%B8%8B%E8%BD%BDmaven-jar%E5%8C%85%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98%E6%97%B6%E8%AF%B7%E8%AE%BE%E7%BD%AEmaven%E9%95%9C%E5%83%8F%E5%BA%93)
+1. [java.security.KeyException](https://github.com/wechat-group/weixin-java-tools/wiki/java.security.KeyException)
+1. [httpclient 4.3.1 版本有bug，请不要使用](https://github.com/wechat-group/weixin-java-tools/wiki/httpclient-4.3.1-%E7%89%88%E6%9C%AC%E6%9C%89bug-%E8%AF%B7%E4%B8%8D%E8%A6%81%E4%BD%BF%E7%94%A8)
+1. [下载maven jar包出现问题时请设置maven镜像库](https://github.com/wechat-group/weixin-java-tools/wiki/%E4%B8%8B%E8%BD%BDmaven-jar%E5%8C%85%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98%E6%97%B6%E8%AF%B7%E8%AE%BE%E7%BD%AEmaven%E9%95%9C%E5%83%8F%E5%BA%93)
 
 
 ## 公众号开发
