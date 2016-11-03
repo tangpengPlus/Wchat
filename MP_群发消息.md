@@ -1,4 +1,5 @@
-下面用用户列表群发（``WxMpMassOpenIdsMessage``）做例子，如果要使用分组群发，则使用``WxMpMassGroupMessage``即可。
+下面用用户列表群发（``WxMpMassOpenIdsMessage``）做例子，如果要使用标签群发，则使用``me.chanjar.weixin.mp.bean.WxMpMassTagMessage``即可。
+更多用例，请参考单元测试类me.chanjar.weixin.mp.api.WxMpMassMessageAPITest
 
 ## 文本消息
 ```java
@@ -12,7 +13,7 @@ WxMpMassSendResult massResult = wxMpService.massOpenIdsMessageSend(massMessage);
 
 ## 视频消息
 ```java
-WxMediaUploadResult uploadMediaRes = wxMpService.mediaUpload(WxConsts.MEDIA_VIDEO, WxConsts.FILE_MP4, inputStream);
+WxMediaUploadResult uploadMediaRes = wxMpService.getMaterialService().mediaUpload(WxConsts.MEDIA_VIDEO, WxConsts.FILE_MP4, inputStream);
 
 // 把视频变成可被群发的媒体
 WxMpMassVideo video = new WxMpMassVideo();
@@ -31,7 +32,7 @@ WxMpMassSendResult massResult = wxMpService.massOpenIdsMessageSend(massMessage);
 
 ## 图片消息
 ```java
-WxMediaUploadResult uploadMediaRes = wxMpService.mediaUpload(WxConsts.MEDIA_IMAGE, WxConsts.FILE_JPG, inputStream);
+WxMediaUploadResult uploadMediaRes = wxMpService.getMaterialService().mediaUpload(WxConsts.MEDIA_IMAGE, WxConsts.FILE_JPG, inputStream);
 
 WxMpMassOpenIdsMessage massMessage = new WxMpMassOpenIdsMessage();
 massMessage.setMsgType(WxConsts.MASS_MSG_IMAGE);
@@ -43,7 +44,7 @@ WxMpMassSendResult massResult = wxMpService.massOpenIdsMessageSend(massMessage);
 
 ## 语音消息
 ```java
-WxMediaUploadResult uploadMediaRes = wxMpService.mediaUpload(WxConsts.MEDIA_VOICE, WxConsts.FILE_MP3, inputStream);
+WxMediaUploadResult uploadMediaRes = wxMpService.getMaterialService().mediaUpload(WxConsts.MEDIA_VOICE, WxConsts.FILE_MP3, inputStream);
 
 WxMpMassOpenIdsMessage massMessage = new WxMpMassOpenIdsMessage();
 massMessage.setMsgType(WxConsts.MASS_MSG_VOICE);
@@ -56,7 +57,7 @@ WxMpMassSendResult massResult = wxMpService.massOpenIdsMessageSend(massMessage);
 ## 图文消息
 ```java
 // 先上传图文消息里需要的图片
-WxMediaUploadResult uploadMediaRes = wxMpService.mediaUpload(WxConsts.MEDIA_IMAGE, WxConsts.FILE_JPG, inputStream);
+WxMediaUploadResult uploadMediaRes = wxMpService.getMaterialService().mediaUpload(WxConsts.MEDIA_IMAGE, WxConsts.FILE_JPG, inputStream);
 
 WxMpMassNews news = new WxMpMassNews();
 WxMpMassNews.WxMpMassNewsArticle article1 = new WxMpMassNews.WxMpMassNewsArticle();
