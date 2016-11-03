@@ -1,17 +1,16 @@
+更多使用用例可参考单元测试类me.chanjar.weixin.mp.api.impl.WxMpUserTagServiceImplTest
+
 ## 创建标签
 ```java
-WxGroup res = wxMpService.groupCreate("测试分组1");
+WxUserTag res = this.wxService.getUserTagService().tagCreate(tagName);
 ```
 
 ## 获得标签列表
 ```java
-List<WxGroup> groupList = wxMpService.groupGet();
+List<WxUserTag> res = this.wxService.getUserTagService().tagGet();
 ```
 
 ## 更新标签名
 ```java
-WxMpGroup group = new WxMpGroup();
-group.setId(...);
-group.setName(...);
-wxMpService.groupUpdate(group);
+Boolean res = this.wxService.getUserTagService().tagUpdate(tagId, tagName);
 ```
