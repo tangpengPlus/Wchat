@@ -3,9 +3,9 @@ http://ace.aliapp.com/java/quick-start.md?spm=5176.383729.9.2.6HqPoT&file=quick-
 
 你可以在构造自己的``WxMpConfigStorage``的时候设置http代理信息：
 
-1. http_proxy_host
-1. http_proxy_port
-1. http_proxy_username（可选）
-1. http_proxy_password（可选）
+1. httpPoxyHost
+1. httpProxyPort
+1. httpProxyUsername（可选）
+1. httpProxyPassword（可选）
 
 只要你设置了http代理，那么所有的请求都会从代理走。
