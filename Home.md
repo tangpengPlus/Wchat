@@ -16,7 +16,6 @@
 1. [微信消息路由器](https://github.com/wechat-group/weixin-java-tools/wiki/MP_微信消息路由器)
 1. [WxMpConfigStorage](https://github.com/wechat-group/weixin-java-tools/wiki/MP_WxMpConfigStorage)
 1. [验证消息合法性](https://github.com/wechat-group/weixin-java-tools/wiki/MP_验证消息合法性)
-1. [刷新access_token](https://github.com/wechat-group/weixin-java-tools/wiki/MP_刷新access_token)
 1. [消息的加解密](https://github.com/wechat-group/weixin-java-tools/wiki/MP_消息的加解密)
 1. [同步回复消息](https://github.com/wechat-group/weixin-java-tools/wiki/MP_同步回复消息)
 1. [主动发送消息（客服消息）](https://github.com/wechat-group/weixin-java-tools/wiki/MP_%E4%B8%BB%E5%8A%A8%E5%8F%91%E9%80%81%E6%B6%88%E6%81%AF%EF%BC%88%E5%AE%A2%E6%9C%8D%E6%B6%88%E6%81%AF%EF%BC%89)
