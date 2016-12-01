@@ -1,7 +1,7 @@
 # 微信Java SDK开发文档
 
 ## 常见问题
-
+1. 对Maven不熟的，建议学习此视频：http://www.imooc.com/learn/443
 1. [加解密Illegal key size异常处理办法](https://github.com/wechat-group/weixin-java-tools/wiki/加解密的异常处理办法)
 1. [java.security.KeyException](https://github.com/wechat-group/weixin-java-tools/wiki/java.security.KeyException)
 1. [NoSuchMethdError或ClassNotFoundException的解决办法](https://github.com/wechat-group/weixin-java-tools/wiki/NoSuchMethdError%E6%88%96ClassNotFoundException%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95)
