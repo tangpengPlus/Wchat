@@ -1,3 +1,5 @@
+更多用例，请参考me.chanjar.weixin.mp.api.impl.WxMpKefuServiceImplTest
+
 ```java
 WxMpKefuMessage message = ...;
 // 设置消息的内容等信息
