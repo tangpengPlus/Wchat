@@ -11,3 +11,15 @@
     </mirror>
   </mirrors>
 ```
+
+或者使用ibiblio的，据观察，更新内容比aliyun稍微快一些
+```
+  <mirrors>
+    <mirror>
+      <id>ibiblio</id>
+      <name>ibiblio</name>
+      <url>http://mirrors.ibiblio.org/maven2</url>
+      <mirrorOf>central</mirrorOf>
+    </mirror>
+  </mirrors>
+```
