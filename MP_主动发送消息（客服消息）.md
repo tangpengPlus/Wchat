@@ -1,4 +1,4 @@
-更多用例，请参考me.chanjar.weixin.mp.api.impl.WxMpKefuServiceImplTest
+更多用例，请参考`me.chanjar.weixin.mp.api.impl.WxMpKefuServiceImplTest`
 
 ```java
 WxMpKefuMessage message = ...;
