@@ -7,6 +7,7 @@
 1. [NoSuchMethdError或ClassNotFoundException的解决办法](https://github.com/wechat-group/weixin-java-tools/wiki/NoSuchMethdError%E6%88%96ClassNotFoundException%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95)
 1. [httpclient 4.3.1 版本有bug，请不要使用](https://github.com/wechat-group/weixin-java-tools/wiki/httpclient-4.3.1-%E7%89%88%E6%9C%AC%E6%9C%89bug-%E8%AF%B7%E4%B8%8D%E8%A6%81%E4%BD%BF%E7%94%A8)
 1. [下载maven jar包出现问题时请设置maven镜像库](https://github.com/wechat-group/weixin-java-tools/wiki/%E4%B8%8B%E8%BD%BDmaven-jar%E5%8C%85%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98%E6%97%B6%E8%AF%B7%E8%AE%BE%E7%BD%AEmaven%E9%95%9C%E5%83%8F%E5%BA%93)
+1. [几个内网端口映射服务网站(解决外网访问内网问题)](https://github.com/wechat-group/weixin-java-tools/wiki/%E5%87%A0%E4%B8%AA%E5%86%85%E7%BD%91%E7%AB%AF%E5%8F%A3%E6%98%A0%E5%B0%84%E6%9C%8D%E5%8A%A1%E7%BD%91%E7%AB%99)
 
 
 ## 公众号开发
