@@ -1,7 +1,7 @@
 ```java
-WxMpCustomMessage message = ...;
+WxMpKefuMessage message = ...;
 // 设置消息的内容等信息
-wxMpService.getKefuService().customMessageSend(message);
+wxMpService.getKefuService().sendKefuMessage(message);
 ```
 
 ## WxXmlOutTextMessage
@@ -11,7 +11,7 @@ wxMpService.getKefuService().customMessageSend(message);
 ### 文本消息
 
 ```java
-WxMpCustomMessage
+WxMpKefuMessage
   .TEXT()
   .toUser("OPENID")
   .content("sfsfdsdf")
@@ -19,7 +19,7 @@ WxMpCustomMessage
 ```
 ### 图片消息
 ```java
-WxMpCustomMessage
+WxMpKefuMessage
   .IMAGE()
   .toUser("OPENID")
   .mediaId("MEDIA_ID")
@@ -28,7 +28,7 @@ WxMpCustomMessage
 
 ### 语音消息
 ```java
-WxMpCustomMessage.VOICE()
+WxMpKefuMessage.VOICE()
   .toUser("OPENID")
   .mediaId("MEDIA_ID")
   .build();
@@ -36,7 +36,7 @@ WxMpCustomMessage.VOICE()
 
 ### 视频消息
 ```java
-WxMpCustomMessage.VIDEO()
+WxMpKefuMessage.VIDEO()
   .toUser("OPENID")
   .title("TITLE")
   .mediaId("MEDIA_ID")
@@ -47,7 +47,7 @@ WxMpCustomMessage.VIDEO()
 
 ### 音乐消息
 ```java
-WxMpCustomMessage.MUSIC()
+WxMpKefuMessage.MUSIC()
   .toUser("OPENID")
   .title("TITLE")
   .thumbMediaId("MEDIA_ID")
@@ -59,19 +59,19 @@ WxMpCustomMessage.MUSIC()
 
 ### 图文消息
 ```java
-WxMpCustomMessage.WxArticle article1 = new WxMpCustomMessage.WxArticle();
+WxMpKefuMessage.WxArticle article1 = new WxMpKefuMessage.WxArticle();
 article1.setUrl("URL");
 article1.setPicUrl("PIC_URL");
 article1.setDescription("Is Really A Happy Day");
 article1.setTitle("Happy Day");
 
-WxMpCustomMessage.WxArticle article2 = new WxMpCustomMessage.WxArticle();
+WxMpKefuMessage.WxArticle article2 = new WxMpKefuMessage.WxArticle();
 article2.setUrl("URL");
 article2.setPicUrl("PIC_URL");
 article2.setDescription("Is Really A Happy Day");
 article2.setTitle("Happy Day");
 
-WxMpCustomMessage.NEWS()
+WxMpKefuMessage.NEWS()
     .toUser("OPENID")
     .addArticle(article1)
     .addArticle(article2)
