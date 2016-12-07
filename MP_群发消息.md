@@ -56,8 +56,12 @@ WxMpMassSendResult massResult = wxMpService.massOpenIdsMessageSend(massMessage);
 
 ## 图文消息
 ```java
-// 先上传图文消息里需要的图片
+// 上传图文消息的封面图片
 WxMediaUploadResult uploadMediaRes = wxMpService.getMaterialService().mediaUpload(WxConsts.MEDIA_IMAGE, WxConsts.FILE_JPG, inputStream);
+
+// 上传图文消息的正文图片(返回的url拼在正文的<img>标签中)
+WxMediaImgUploadResult imagedMediaRes = wxMpService.getMaterialService().mediaImgUpload(file);
+String url=imagedMediaRes.getUrl();
 
 WxMpMassNews news = new WxMpMassNews();
 WxMpMassNews.WxMpMassNewsArticle article1 = new WxMpMassNews.WxMpMassNewsArticle();
