@@ -12,7 +12,7 @@
   </mirrors>
 ```
 
-或者使用ibiblio的，据观察，更新内容比aliyun稍微快一些
+或者使用ibiblio的，据观察，更新内容可能比aliyun稍微快一些，但不一定
 ```
   <mirrors>
     <mirror>
