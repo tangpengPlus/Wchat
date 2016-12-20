@@ -8,7 +8,7 @@ wxCpService.oauth2buildAuthorizationUrl(null)
 
 ## 获得用户基本信息
 
-当用户同意授权后，会回调所设置的url并把authorization code传过来，然后用这个code获得access token
+当用户同意授权后，会回调所设置的url并把authorization code传过来，然后用这个code获得user id
 
 ```java
 String[] res = wxCpService.oauth2getUserInfo(code);
