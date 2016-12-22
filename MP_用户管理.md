@@ -6,7 +6,7 @@ wxMpService.userUpdateRemark(openid, "测试备注名");
 ## 获得用户信息
 ```java
 String lang = "zh_CN"; //语言
-WxMpUser user = wxMpService.userInfo(openid, lang);
+WxMpUser user = wxMpService.getUserService().userInfo(openid,lang);
 ```
 
 ## 获得用户列表
