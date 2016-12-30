@@ -11,7 +11,7 @@
 1. [遇到保存字符串到数据库里出现`\xF0\x9F\x92\x94`类似问题时，请尝试使用这个](https://github.com/binarywang/java-emoji-converter)
 
 ## 公众号开发
-
+1. [【微信公众号官方文档入口】](http://mp.weixin.qq.com/wiki)：http://mp.weixin.qq.com/wiki （注意，从网上搜到的文档有的虽然地址前面跟这个一样，但明显左侧菜单不一致，是旧的文档，注意不要看错文档）。
 1. [Quick Start（快速入门）](https://github.com/wechat-group/weixin-java-tools/wiki/MP_Quick-Start)
 1. [Demo代码](https://github.com/wechat-group/weixin-java-tools/wiki/MP_demo代码)
 1. [微信消息路由器](https://github.com/wechat-group/weixin-java-tools/wiki/MP_微信消息路由器)
