@@ -14,12 +14,18 @@ WxMpUser user = wxMpService.getUserService().userInfo(openid,lang);
 WxMpUserList wxUserList = wxMpService.userList(next_openid);
 ```
 
-## 查询用户所在分组
+## 查询用户标签列表
 ```java
-long groupid = wxMpService.userGetGroup(openid);
+List<Long> tags = wxMpService.getUserTagService().userTagList(openid);
 ```
 
-## 将用户移到分组
+## 批量给用户添加标签
 ```java
-wxMpService.userUpdateGroup(openid, to_groupid);
+String[]openids,long tagid;
+wxMpService.getUserTagService().batchTagging(tagid,openids);
+```
+
+## 批量给用户移除标签
+```java
+wxMpService.getUserTagService().batchUntagging(tagid,openids);
 ```
