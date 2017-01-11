@@ -1,8 +1,8 @@
-目前有三个demo项目代码可以参考：
-
-1. https://github.com/wechat-group/weixin-mp-demo
-2. https://github.com/wechat-group/weixin-mp-demo-springboot
-3. https://github.com/wechat-group/weixin-java-tools-springmvc
+目前有如下几个demo项目可供新手参考:
+* https://github.com/wechat-group/weixin-java-mp-demo 
+* https://github.com/wechat-group/weixin-java-mp-multi-demo (支持多公众号)
+* https://github.com/wechat-group/weixin-java-tools-springmvc
+* https://github.com/wechat-group/weixin-java-mp-demo-springboot
 
 也可以运行本项目的demo代码来对``weixin-java-tools``的有一个更好的了解。
 
