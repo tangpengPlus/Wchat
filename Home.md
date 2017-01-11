@@ -13,7 +13,7 @@
 ## 公众号开发
 1. [【微信公众号官方文档入口】](http://mp.weixin.qq.com/wiki)：http://mp.weixin.qq.com/wiki （注意，从网上搜到的文档有的虽然地址前面跟这个一样，但明显左侧菜单不一致，是旧的文档，注意不要看错文档）。
 1. [Quick Start（快速入门）](https://github.com/wechat-group/weixin-java-tools/wiki/MP_Quick-Start)
-1. [Demo代码](https://github.com/wechat-group/weixin-java-tools/wiki/MP_demo代码)
+1. [Demo代码及Demo项目](https://github.com/wechat-group/weixin-java-tools/wiki/MP_demo代码)
 1. [微信消息路由器](https://github.com/wechat-group/weixin-java-tools/wiki/MP_微信消息路由器)
 1. [WxMpConfigStorage](https://github.com/wechat-group/weixin-java-tools/wiki/MP_WxMpConfigStorage)
 1. [验证消息合法性](https://github.com/wechat-group/weixin-java-tools/wiki/MP_验证消息合法性)
