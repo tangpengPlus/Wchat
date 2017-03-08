@@ -2,14 +2,14 @@
 ```java
 WxMenu wxMenu = new WxMenu();
 // 设置菜单
-wxMpService.menuCreate(wxMenu);
+wxMpService.getMenuService().menuCreate(wxMenu);
 ```
 
 ## 删除自定义菜单
 ```java
-wxMpService.menuDelete();
+wxMpService.getMenuService().menuDelete();
 ```
 
 ## 获得自定义菜单
 ```java
-WxMenu wxMenu = wxMpService.menuGet()
+WxMenu wxMenu = wxMpService.getMenuService().menuGet();
