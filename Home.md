@@ -1,7 +1,7 @@
 # 微信Java SDK开发文档
 
 ## 常见问题
-1. ## 在微信后台设置安全域名时，注意不要将http等字符带入，首先要理解域名的含义，应该是`www.abcde.com`类似这样的 ##
+1. **在微信后台设置安全域名时，注意不要将http等字符带入，首先要理解域名的含义，应该是`www.abcde.com`类似这样的**
 1. [对Maven不熟的，建议学习此视频](http://www.imooc.com/learn/443)
 1. [加解密Illegal key size异常处理办法](https://github.com/wechat-group/weixin-java-tools/wiki/加解密的异常处理办法)
 1. [java.security.KeyException](https://github.com/wechat-group/weixin-java-tools/wiki/java.security.KeyException)
