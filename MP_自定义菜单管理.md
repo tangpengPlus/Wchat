@@ -1,4 +1,5 @@
 ## 创建自定义菜单
+包括新增和修改，修改相当于覆盖之前的菜单。
 ```java
 WxMenu wxMenu = new WxMenu();
 // 设置菜单
