@@ -11,6 +11,10 @@
 1. [几个内网端口映射服务网站(可以实现外网访问内网)](https://github.com/wechat-group/weixin-java-tools/wiki/%E5%87%A0%E4%B8%AA%E5%86%85%E7%BD%91%E7%AB%AF%E5%8F%A3%E6%98%A0%E5%B0%84%E6%9C%8D%E5%8A%A1%E7%BD%91%E7%AB%99)
 1. [Emoji表情字符存储有问题，或者遇到保存字符串到数据库里出现`\xF0\x9F\x92\x94`类似问题时，请尝试使用这个工具](https://github.com/binarywang/java-emoji-converter)
 
+
+## 微信支付开发
+1. [微信支付](https://github.com/wechat-group/weixin-java-tools/wiki/%E5%BE%AE%E4%BF%A1%E6%94%AF%E4%BB%98)
+
 ## 公众号开发
 1. [【微信公众号官方文档入口】](http://mp.weixin.qq.com/wiki)：http://mp.weixin.qq.com/wiki （注意，从网上搜到的文档有的虽然地址前面跟这个一样，但明显左侧菜单不一致，是旧的文档，注意不要看错文档）。
 1. [Quick Start（快速入门）](https://github.com/wechat-group/weixin-java-tools/wiki/MP_Quick-Start)
@@ -34,7 +38,6 @@
 1. [OAuth2网页授权](https://github.com/wechat-group/weixin-java-tools/wiki/MP_OAuth2网页授权)
 1. [JS_API支持](https://github.com/wechat-group/weixin-java-tools/wiki/MP_js_api)
 1. [http代理支持](https://github.com/wechat-group/weixin-java-tools/wiki/MP_http代理支持)
-1. [微信支付](https://github.com/wechat-group/weixin-java-tools/wiki/%E5%BE%AE%E4%BF%A1%E6%94%AF%E4%BB%98)
 1. [如何调用未支持的接口](https://github.com/wechat-group/weixin-java-tools/wiki/MP_如何调用未支持的接口)
 1. [如何执行本项目单元测试](https://github.com/wechat-group/weixin-java-tools/wiki/MP_如何执行本项目单元测试)
 
