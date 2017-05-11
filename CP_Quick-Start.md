@@ -19,14 +19,14 @@ wxCpService.messageSend(message);
 ```java
 public class WxCpServlet extends HttpServlet {
 
-  protected WxCpConfigStorage wxCpConfigStorage;
+  protected WxCpConfigStorage config;
   protected WxCpService wxCpService;
   protected WxCpMessageRouter wxCpMessageRouter;
 
   @Override public void init() throws ServletException {
     super.init();
 
-    wxCpConfigStorage = new WxCpInMemoryConfigStorage();
+    config = new WxCpInMemoryConfigStorage();
     config.setCorpId("...");      // 设置微信企业号的appid
     config.setCorpSecret("...");  // 设置微信企业号的app corpSecret
     config.setAgentId("...");     // 设置微信企业号应用ID
@@ -34,7 +34,7 @@ public class WxCpServlet extends HttpServlet {
     config.setAesKey("...");      // 设置微信企业号应用的EncodingAESKey
 
     wxCpService = new WxCpServiceImpl();
-    wxCpService.setWxCpConfigStorage(wxCpConfigStorage);
+    wxCpService.setWxCpConfigStorage(config);
 
     WxCpMessageHandler handler = new WxCpMessageHandler() {
       @Override public WxCpXmlOutMessage handle(WxCpXmlMessage wxMessage, Map<String, Object> context, WxCpService wxCpService) {
