@@ -61,13 +61,13 @@ WxCpMessage.VIDEO()
 
 ### 图文消息
 ```java
-WxCpMessage.WxArticle article1 = new WxCpMessage.WxArticle();
+NewArticle article1 = new NewArticle();
 article1.setUrl("URL");
 article1.setPicUrl("PIC_URL");
 article1.setDescription("Is Really A Happy Day");
 article1.setTitle("Happy Day");
 
-WxCpMessage.WxArticle article2 = new WxCpMessage.WxArticle();
+NewArticle article2 = new NewArticle();
 article2.setUrl("URL");
 article2.setPicUrl("PIC_URL");
 article2.setDescription("Is Really A Happy Day");
