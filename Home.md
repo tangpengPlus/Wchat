@@ -13,6 +13,7 @@
 
 
 ## 微信支付开发
+1. [微信支付官方文档入口](https://pay.weixin.qq.com/wiki/doc/api/index.html)
 1. [微信支付Demo项目](https://github.com/Wechat-Group/weixin-java-pay-demo)
 1. [微信支付使用说明](https://github.com/wechat-group/weixin-java-tools/wiki/%E5%BE%AE%E4%BF%A1%E6%94%AF%E4%BB%98)
 
