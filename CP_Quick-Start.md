@@ -1,3 +1,6 @@
+
+更多用法，请参考Demo项目：https://github.com/wechat-group/weixin-java-cp-demo
+
 ## Hello World
 ```java
 WxCpInMemoryConfigStorage config = new WxCpInMemoryConfigStorage();
