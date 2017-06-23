@@ -1,6 +1,6 @@
 和公众号不同，企业号传递过来的消息总是加密的，并且同步返回的消息也是需要加密的（异步调用消息发送接口不需要加密）。
 
-下面的代码假设你已经有了一个``WxCpService``实例，怎么构造看[Quick Start](https://github.com/chanjarster/weixin-java-tools/wiki/CP_Quick-Start)
+下面的代码假设你已经有了一个``WxCpService``实例，怎么构造看[Quick Start](https://github.com/wechat-group/weixin-java-tools/wiki/CP_Quick-Start)
 
 ```java
 String msgSignature = request.getParameter("msg_signature");
