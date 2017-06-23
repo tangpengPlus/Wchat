@@ -11,6 +11,12 @@
 1. [几个内网端口映射服务网站(可以实现外网访问内网)](https://github.com/wechat-group/weixin-java-tools/wiki/%E5%87%A0%E4%B8%AA%E5%86%85%E7%BD%91%E7%AB%AF%E5%8F%A3%E6%98%A0%E5%B0%84%E6%9C%8D%E5%8A%A1%E7%BD%91%E7%AB%99)
 1. [Emoji表情字符存储有问题，或者遇到保存字符串到数据库里出现`\xF0\x9F\x92\x94`类似问题时，请尝试使用这个工具](https://github.com/binarywang/java-emoji-converter)
 
+## 通用问题
+
+1. [Session](https://github.com/wechat-group/weixin-java-tools/wiki/WxSession)
+1. [配置日志](https://github.com/wechat-group/weixin-java-tools/wiki/配置日志)
+1. [消息排重](https://github.com/wechat-group/weixin-java-tools/wiki/消息排重)
+1. [HttpClient参数配置](https://github.com/wechat-group/weixin-java-tools/wiki/HttpClient相关参数的设置方法)
 
 ## 微信支付开发
 1. [微信支付官方文档入口](https://pay.weixin.qq.com/wiki/doc/api/index.html)
@@ -63,10 +69,3 @@
 1. [如何执行本项目单元测试](https://github.com/wechat-group/weixin-java-tools/wiki/CP_如何执行本项目单元测试)
 1. [demo代码](https://github.com/wechat-group/weixin-java-tools/wiki/CP_demo代码)
 1. [如何支持多个企业号应用，或者支持多个企业号](https://github.com/wechat-group/weixin-java-tools/wiki/CP_如何支持多个企业号应用或企业号)
-
-## 通用部分
-
-1. [Session](https://github.com/wechat-group/weixin-java-tools/wiki/WxSession)
-1. [配置日志](https://github.com/wechat-group/weixin-java-tools/wiki/配置日志)
-1. [消息排重](https://github.com/wechat-group/weixin-java-tools/wiki/消息排重)
-1. [HttpClient参数配置](https://github.com/wechat-group/weixin-java-tools/wiki/HttpClient相关参数的设置方法)
