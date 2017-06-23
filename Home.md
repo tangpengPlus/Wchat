@@ -50,7 +50,7 @@
 1. [如何执行本项目单元测试](https://github.com/wechat-group/weixin-java-tools/wiki/MP_如何执行本项目单元测试)
 
 ## 企业号（企业微信）开发
-1. [企业号官方文档地址](https://qydev.weixin.qq.com/wiki/index.php)
+1. [企业号官方文档地址](http://qydev.weixin.qq.com/wiki/index.php)
 1. [企业微信官方文档地址](https://work.weixin.qq.com/api/doc)
 1. [Quick Start](https://github.com/wechat-group/weixin-java-tools/wiki/CP_Quick-Start)
 1. [微信消息路由器](https://github.com/wechat-group/weixin-java-tools/wiki/CP_微信消息路由器)
