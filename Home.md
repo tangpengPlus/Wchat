@@ -16,6 +16,7 @@
 1. [Session](https://github.com/wechat-group/weixin-java-tools/wiki/WxSession)
 1. [配置日志](https://github.com/wechat-group/weixin-java-tools/wiki/配置日志)
 1. [消息排重](https://github.com/wechat-group/weixin-java-tools/wiki/消息排重)
+1. [Http框架的选用方法](https://github.com/Wechat-Group/weixin-java-tools/wiki/http%E6%A1%86%E6%9E%B6%E7%9A%84%E9%80%89%E7%94%A8%E8%AF%B4%E6%98%8E)
 1. [HttpClient参数配置](https://github.com/wechat-group/weixin-java-tools/wiki/HttpClient相关参数的设置方法)
 
 ## 微信支付开发
