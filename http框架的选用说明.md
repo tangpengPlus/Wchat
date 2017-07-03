@@ -26,7 +26,7 @@
 此时应该使用的 `WxMpService`实现类应该是：
  `me.chanjar.weixin.mp.api.impl.WxMpServiceJoddHttpImpl`;
 
-也可以参考https://github.com/wechat-group/weixin-java-mp-demo的jodd-http分支，来查看相关代码。
+也可以参考https://github.com/wechat-group/weixin-java-mp-demo 的jodd-http分支，来查看相关代码。
 
 2、如果想使用okhttp，请在项目pom文件中如下配置：
 ```
@@ -51,4 +51,4 @@
 此时应该使用的 `WxMpService`实现类应该是：
  `me.chanjar.weixin.mp.api.impl.WxMpServiceOkHttpImpl`;
 
-也可以参考https://github.com/wechat-group/weixin-java-mp-demo的okhttp分支，来查看相关代码。
+也可以参考https://github.com/wechat-group/weixin-java-mp-demo 的okhttp分支，来查看相关代码。
