@@ -24,7 +24,9 @@
         </dependency>
 ```
 此时应该使用的 `WxMpService`实现类应该是：
- `me.chanjar.weixin.mp.api.impl.WxMpServiceJoddHttpImpl`;
+ ```
+                me.chanjar.weixin.mp.api.impl.WxMpServiceJoddHttpImpl
+```
 
 也可以参考https://github.com/wechat-group/weixin-java-mp-demo 的jodd-http分支，来查看相关代码。
 
@@ -49,6 +51,8 @@
         </dependency>
 ```
 此时应该使用的 `WxMpService`实现类应该是：
- `me.chanjar.weixin.mp.api.impl.WxMpServiceOkHttpImpl`;
+ ```
+                  me.chanjar.weixin.mp.api.impl.WxMpServiceOkHttpImpl
+```
 
 也可以参考https://github.com/wechat-group/weixin-java-mp-demo 的okhttp分支，来查看相关代码。
