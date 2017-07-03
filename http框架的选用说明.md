@@ -1,4 +1,5 @@
-目前cp和mp均支持多种http框架的自由选用，默认情况下使用apache httpclient；
+目前cp和mp均支持多种http框架（apache-httpclient、jod-http以及okhttp）的自由选用，默认情况下使用apache httpclient；
+
 拿MP举例子来说：
 
 1、 如果想使用jodd-http，请在项目pom文件中如下配置：
