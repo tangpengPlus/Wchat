@@ -13,7 +13,7 @@ WxMpMassSendResult massResult = wxMpService.massOpenIdsMessageSend(massMessage);
 
 ## 视频消息
 ```java
-WxMediaUploadResult uploadMediaRes = wxMpService.getMaterialService().mediaUpload(WxConsts.MEDIA_VIDEO, WxConsts.FILE_MP4, inputStream);
+WxMediaUploadResult uploadMediaRes = wxMpService.getMaterialService().mediaUpload(WxConsts.MEDIA_VIDEO, "mp4", inputStream);
 
 // 把视频变成可被群发的媒体
 WxMpMassVideo video = new WxMpMassVideo();
@@ -32,7 +32,7 @@ WxMpMassSendResult massResult = wxMpService.massOpenIdsMessageSend(massMessage);
 
 ## 图片消息
 ```java
-WxMediaUploadResult uploadMediaRes = wxMpService.getMaterialService().mediaUpload(WxConsts.MEDIA_IMAGE, WxConsts.FILE_JPG, inputStream);
+WxMediaUploadResult uploadMediaRes = wxMpService.getMaterialService().mediaUpload(WxConsts.MEDIA_IMAGE, "jpg", inputStream);
 
 WxMpMassOpenIdsMessage massMessage = new WxMpMassOpenIdsMessage();
 massMessage.setMsgType(WxConsts.MASS_MSG_IMAGE);
@@ -44,7 +44,7 @@ WxMpMassSendResult massResult = wxMpService.massOpenIdsMessageSend(massMessage);
 
 ## 语音消息
 ```java
-WxMediaUploadResult uploadMediaRes = wxMpService.getMaterialService().mediaUpload(WxConsts.MEDIA_VOICE, WxConsts.FILE_MP3, inputStream);
+WxMediaUploadResult uploadMediaRes = wxMpService.getMaterialService().mediaUpload(WxConsts.MEDIA_VOICE, "mp3", inputStream);
 
 WxMpMassOpenIdsMessage massMessage = new WxMpMassOpenIdsMessage();
 massMessage.setMsgType(WxConsts.MASS_MSG_VOICE);
@@ -57,7 +57,7 @@ WxMpMassSendResult massResult = wxMpService.massOpenIdsMessageSend(massMessage);
 ## 图文消息
 ```java
 // 上传图文消息的封面图片
-WxMediaUploadResult uploadMediaRes = wxMpService.getMaterialService().mediaUpload(WxConsts.MEDIA_IMAGE, WxConsts.FILE_JPG, inputStream);
+WxMediaUploadResult uploadMediaRes = wxMpService.getMaterialService().mediaUpload(WxConsts.MEDIA_IMAGE, "jpg", inputStream);
 
 // 上传图文消息的正文图片(返回的url拼在正文的<img>标签中)
 WxMediaImgUploadResult imagedMediaRes = wxMpService.getMaterialService().mediaImgUpload(file);
