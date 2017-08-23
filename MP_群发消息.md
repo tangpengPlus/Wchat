@@ -1,5 +1,5 @@
 下面用用户列表群发（``WxMpMassOpenIdsMessage``）做例子，如果要使用标签群发，则使用``me.chanjar.weixin.mp.bean.WxMpMassTagMessage``即可。
-更多用例，请参考单元测试类me.chanjar.weixin.mp.api.WxMpMassMessageAPITest
+更多用例，请参考单元测试类：`me.chanjar.weixin.mp.api.impl.WxMpMassMessageServiceImplTest`
 
 ## 文本消息
 ```java
@@ -8,7 +8,7 @@ massMessage.setMsgType(WxConsts.MASS_MSG_TEXT);
 massMessage.setContent("消息内容");
 massMessage.getToUsers().add(openid);
 
-WxMpMassSendResult massResult = wxMpService.massOpenIdsMessageSend(massMessage);
+WxMpMassSendResult massResult = wxMpService.getMassMessageService().massOpenIdsMessageSend(massMessage);
 ```
 
 ## 视频消息
@@ -20,14 +20,14 @@ WxMpMassVideo video = new WxMpMassVideo();
 video.setTitle("测试标题");
 video.setDescription("测试描述");
 video.setMediaId(uploadMediaRes.getMediaId());
-WxMpMassUploadResult uploadResult = wxMpService.massVideoUpload(video);
+WxMpMassUploadResult uploadResult = wxMpService.getMassMessageService().massVideoUpload(video);
 
 WxMpMassOpenIdsMessage massMessage = new WxMpMassOpenIdsMessage();
 massMessage.setMsgType(WxConsts.MASS_MSG_VIDEO);
 massMessage.setMediaId(uploadResult.getMediaId());
 massMessage.getToUsers().add(openid);
 
-WxMpMassSendResult massResult = wxMpService.massOpenIdsMessageSend(massMessage);
+WxMpMassSendResult massResult = wxMpService.getMassMessageService().massOpenIdsMessageSend(massMessage);
 ```
 
 ## 图片消息
@@ -39,7 +39,7 @@ massMessage.setMsgType(WxConsts.MASS_MSG_IMAGE);
 massMessage.setMediaId(uploadMediaRes.getMediaId());
 massMessage.getToUsers().add(openid);
 
-WxMpMassSendResult massResult = wxMpService.massOpenIdsMessageSend(massMessage);
+WxMpMassSendResult massResult = wxMpService.getMassMessageService().massOpenIdsMessageSend(massMessage);
 ```
 
 ## 语音消息
@@ -51,7 +51,7 @@ massMessage.setMsgType(WxConsts.MASS_MSG_VOICE);
 massMessage.setMediaId(uploadMediaRes.getMediaId());
 massMessage.getToUsers().add(openid);
 
-WxMpMassSendResult massResult = wxMpService.massOpenIdsMessageSend(massMessage);
+WxMpMassSendResult massResult = wxMpService.getMassMessageService().massOpenIdsMessageSend(massMessage);
 ```
 
 ## 图文消息
@@ -80,12 +80,12 @@ article2.setContentSourceUrl("www.baidu.com");
 article2.setDigest("摘要2");
 news.addArticle(article2);
 
-WxMpMassUploadResult massUploadResult = wxMpService.massNewsUpload(news);
+WxMpMassUploadResult massUploadResult = wxMpService.getMassMessageService().massNewsUpload(news);
 
 WxMpMassOpenIdsMessage massMessage = new WxMpMassOpenIdsMessage();
 massMessage.setMsgType(WxConsts.MASS_MSG_NEWS);
 massMessage.setMediaId(uploadResult.getMediaId());
 massMessage.getToUsers().add(openid);
 
-WxMpMassSendResult massResult = wxMpService.massOpenIdsMessageSend(massMessage);
+WxMpMassSendResult massResult = wxMpService.getMassMessageService().massOpenIdsMessageSend(massMessage);
 ```
