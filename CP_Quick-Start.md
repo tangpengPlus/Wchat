@@ -1,5 +1,5 @@
 
-更多用法，请参考Demo项目：https://github.com/wechat-group/weixin-java-cp-demo
+更多用法，请参考Demo项目：https://github.com/binarywang/weixin-java-cp-demo
 
 ## Hello World
 ```java
