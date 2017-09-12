@@ -5,7 +5,8 @@
 1. 永久图片素材新增后，将带有URL返回给开发者，开发者可以在腾讯系域名内使用（腾讯系域名外使用，图片将被屏蔽）
 
 *下面所有方法使用方式可以参考测试用例： *
-`weixin-java-tools/weixin-java-mp/src/test/java/me/chanjar/weixin/mp/api/impl/WxMpMaterialServiceImplTest.java` (me.chanjar.weixin.mp.api.impl.WxMpMaterialServiceImplTest`)
+
+`weixin-java-tools/weixin-java-mp/src/test/java/me/chanjar/weixin/mp/api/impl/WxMpMaterialServiceImplTest.java` (`me.chanjar.weixin.mp.api.impl.WxMpMaterialServiceImplTest`)
 
 ## 添加图文永久素材
 
