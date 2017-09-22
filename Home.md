@@ -8,7 +8,7 @@
 1. [Emoji表情字符存储有问题，或者遇到保存字符串到数据库里出现`\xF0\x9F\x92\x94`类似问题时，请尝试使用这个工具](https://github.com/binarywang/java-emoji-converter)
 1. [httpclient 4.3.1 版本有bug，请不要使用](https://github.com/wechat-group/weixin-java-tools/wiki/httpclient-4.3.1-%E7%89%88%E6%9C%AC%E6%9C%89bug-%E8%AF%B7%E4%B8%8D%E8%A6%81%E4%BD%BF%E7%94%A8)
 
-## 常见的异常问题
+## 常见异常问题的解决办法
 
 1. [加解密时出现`Illegal key size`异常的处理办法](https://github.com/wechat-group/weixin-java-tools/wiki/加解密的异常处理办法)
 1. [发生`java.security.KeyException`的解决办法](https://github.com/wechat-group/weixin-java-tools/wiki/java.security.KeyException)
@@ -28,7 +28,7 @@
 1. [微信支付使用说明](https://github.com/wechat-group/weixin-java-tools/wiki/%E5%BE%AE%E4%BF%A1%E6%94%AF%E4%BB%98)
 
 ## 公众号开发
-1. [【微信公众号官方文档入口】](http://mp.weixin.qq.com/wiki)：http://mp.weixin.qq.com/wiki （注意，从网上搜到的文档有的虽然地址前面跟这个一样，但明显左侧菜单不一致，是旧的文档，注意不要看错文档）。
+1. [【微信公众号官方文档入口】](http://mp.weixin.qq.com/wiki)：http://mp.weixin.qq.com/wiki 
 1. [Quick Start（快速入门）](https://github.com/wechat-group/weixin-java-tools/wiki/MP_Quick-Start)
 1. [Demo代码及Demo项目](https://github.com/wechat-group/weixin-java-tools/wiki/MP_demo代码)
 1. [微信消息路由器](https://github.com/wechat-group/weixin-java-tools/wiki/MP_微信消息路由器)
