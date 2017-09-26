@@ -40,8 +40,8 @@ public class WxMpServlet extends HttpServlet {
     WxMpMessageHandler handler = new WxMpMessageHandler() {
       @Override public WxMpXmlOutMessage handle(WxMpXmlMessage wxMessage, Map<String, Object> context, WxMpService wxMpService) {
         WxMpXmlOutTextMessage m
-            = WxMpXmlOutMessage.TEXT().content("测试加密消息").fromUser(wxMessage.getToUserName())
-            .toUser(wxMessage.getFromUserName()).build();
+            = WxMpXmlOutMessage.TEXT().content("测试加密消息").fromUser(wxMessage.getToUser())
+            .toUser(wxMessage.getFromUser()).build();
         return m;
       }
     };
