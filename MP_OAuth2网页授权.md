@@ -3,7 +3,8 @@
 首先构造网页授权url，然后构成超链接让用户点击
 
 ```java
-wxMpService.oauth2buildAuthorizationUrl(WxConsts.OAUTH2_SCOPE_USER_INFO, null)
+String url = ...;
+wxMpService.oauth2buildAuthorizationUrl(url, WxConsts.OAUTH2_SCOPE_USER_INFO, null)
 ```
 
 ## 获得access token
