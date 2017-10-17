@@ -1,6 +1,6 @@
 ## 更新用户备注名
 ```java
-wxMpService.userUpdateRemark(openid, "测试备注名");
+wxMpService.getUserService().userUpdateRemark(openid, "测试备注名");
 ```
 
 ## 获得用户信息
@@ -11,7 +11,7 @@ WxMpUser user = wxMpService.getUserService().userInfo(openid,lang);
 
 ## 获得用户列表
 ```java
-WxMpUserList wxUserList = wxMpService.userList(next_openid);
+WxMpUserList wxUserList = wxMpService.getUserService().userList(next_openid);
 ```
 
 ## 查询用户标签列表
