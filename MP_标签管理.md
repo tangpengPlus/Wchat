@@ -1,4 +1,4 @@
-更多使用用例可参考单元测试类me.chanjar.weixin.mp.api.impl.WxMpUserTagServiceImplTest
+更多使用用例可参考单元测试类`me.chanjar.weixin.mp.api.impl.WxMpUserTagServiceImplTest`
 
 ## 创建标签
 ```java
