@@ -1,3 +1,5 @@
+更多使用用例可参考单元测试类`me.chanjar.weixin.mp.api.impl.WxMpUserServiceImplTest`
+
 ## 更新用户备注名
 ```java
 wxMpService.getUserService().userUpdateRemark(openid, "测试备注名");
