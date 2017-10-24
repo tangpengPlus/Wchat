@@ -9,7 +9,7 @@ wxMpService.oauth2buildAuthorizationUrl(url, WxConsts.OAUTH2_SCOPE_USER_INFO, nu
 
 ## 获得access token
 
-当用户同意授权后，会回调所设置的url并把authorization code传过来，然后用这个code获得access token
+当用户同意授权后，会回调所设置的url并把authorization code传过来，然后用这个code获得access token，其中也包含用户的openid等信息
 
 ```java
 WxMpOAuth2AccessToken wxMpOAuth2AccessToken = wxMpService.oauth2getAccessToken(code);
